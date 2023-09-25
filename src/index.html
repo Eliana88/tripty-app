@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TriptyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+        "composerPlaceholder": "Habla con Tripty",
+        "botConversationDescription": "Tu próximo destino te espera",
+        "botId": "ed9be565-9678-4da8-9120-4f699f7505a7",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "ed9be565-9678-4da8-9120-4f699f7505a7",
+        "lazySocket": true,
+        "botName": "Tripty",
+        "frontendVersion": "v1",
+        "showPoweredBy": true
+    });
+  </script>
+</body>
+</html>
