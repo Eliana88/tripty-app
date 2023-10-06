@@ -1,5 +1,12 @@
 .head-image{
-    background-image: url('https://elviajerofeliz.com/wp-content/uploads/2017/03/Lago-San-Martin-de-los-Andes.jpg'); 
-    height: 400px
   
+    background-image: url('https://lavidadeviaje.com/wp-content/uploads/2015/01/La-Vida-de-Viaje-Portada-11-destinos-argentina-1.jpg'); 
+    height: 200x
+  }
+
+  h1, h2{
+
+      font-size: 36px; /* Tamaño de fuente */
+      font-weight: bold; /* Peso de la fuente en negrita */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto para mayor contraste */
   }
