@@ -5,8 +5,6 @@
   }
 
   h1, h2{
-
-      font-size: 36px; /* Tamaño de fuente */
       font-weight: bold; /* Peso de la fuente en negrita */
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto para mayor contraste */
   }

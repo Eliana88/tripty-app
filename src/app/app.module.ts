@@ -9,7 +9,7 @@ import { DirectivaComponent } from './directiva/directiva.component';
 
 import { RouterModule, Routes } from '@angular/router';
 import { DestinosComponent } from './destinos/destinos.component';
-import { Destinos2Component } from './destinos2/destinos2.component';
+import { DetalleComponent } from './detalle/detalle.component';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -18,7 +18,7 @@ const routes: Routes =[
   {path: '', redirectTo: '/home', pathMatch:'full'},
   {path: 'home', component: DirectivaComponent},
   {path: 'destinos', component: DestinosComponent},
-  {path: 'detalle', component: Destinos2Component}
+  {path: 'detalle', component: DetalleComponent}
 ]
 
 @NgModule({
@@ -28,7 +28,7 @@ const routes: Routes =[
     FooterComponent,
     DirectivaComponent,
     DestinosComponent,
-    Destinos2Component,
+    DetalleComponent,
 
   ],
   imports: [
