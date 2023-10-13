@@ -1,11 +1,23 @@
 .row {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: #fff;
-  }
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+}
 
-  p{
-    text-align: center;
-    padding-top: 5px;
-  }
+p{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2d7fd6a8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

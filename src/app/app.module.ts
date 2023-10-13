@@ -13,12 +13,14 @@ import { DetalleComponent } from './detalle/detalle.component';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 const routes: Routes =[
   {path: '', redirectTo: '/home', pathMatch:'full'},
   {path: 'home', component: DirectivaComponent},
   {path: 'destinos', component: DestinosComponent},
-  {path: 'detalle', component: DetalleComponent}
+  {path: 'detalle', component: DetalleComponent},
+  {path: 'chatbot', component: ChatbotComponent}
 ]
 
 @NgModule({
@@ -29,6 +31,7 @@ const routes: Routes =[
     DirectivaComponent,
     DestinosComponent,
     DetalleComponent,
+    ChatbotComponent,
 
   ],
   imports: [

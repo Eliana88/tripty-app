@@ -1,30 +1,31 @@
 <div class="row">
-    <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-            <div class="col">
-                <img src="https://www.reportur.com/wp-content/uploads/2021/02/arg-mapa.jpg" class="card-img-top"
-                    alt="#" />
-                <h5 class="card-header">Destinos Populares</h5>
-                <p class="card-text"> Explorá nuestros destinos turísticos populares y descubre la belleza de nuestro
-                    país:</p>
-                <ul class="list-group">
-                    <li class="list-group-item" *ngFor="let destino of listaDestinos">{{destino}}</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="card">
-            <div class="col">
-                <img src="https://viajerosocultos.com/wp-content/uploads/2020/08/jeshoots-com-mSESwdMZr-A-unsplash-scaled.jpg" class="card-img-top"
-                    alt="Palm Springs Road" />
-                <h5 class="card-header">Planificá Tu Viaje</h5>
-                <p class="card-text"> Planificá tu aventura con nosotros y disfruta de servicios de alta calidad:
-                </p>
-                <ul class="list-group">
-                    <li class="list-group-item" *ngFor="let servicio of listaServicios">{{servicio}}</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+  <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+          <div class="col">
+              <img src="https://www.reportur.com/wp-content/uploads/2021/02/arg-mapa.jpg" class="card-img-top"
+                  alt="#" />
+              <h5 class="card-header">Destinos Populares</h5>
+              <p class="card-text"> Explorá nuestros destinos turísticos populares y descubre la belleza de nuestro
+                  país:</p>
+              <ul class="list-group">
+                  <li class="list-group-item" *ngFor="let destino of listaDestinos">{{destino}}</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-6">
+      <div class="card">
+          <div class="col">
+              <img src="https://viajerosocultos.com/wp-content/uploads/2020/08/jeshoots-com-mSESwdMZr-A-unsplash-scaled.jpg" class="card-img-top"
+                  alt="Palm Springs Road" />
+              <h5 class="card-header">Planificá Tu Viaje</h5>
+              <p class="card-text"> Planificá tu aventura con nosotros y disfruta de servicios de alta calidad:
+              </p>
+              <ul class="list-group">
+                  <li class="list-group-item" *ngFor="let servicio of listaServicios">{{servicio}}</li>
+              </ul>
+          </div>
+      </div>
+  </div>
 </div>
+<button class="boton-flotante" (click)="redirigirAlComponenteDelBot()"><img src="https://firebasestorage.googleapis.com/v0/b/tripty-bot.appspot.com/o/pngwing.com.png?alt=media&token=9189d8ff-2cc8-4c2b-acba-a23215b0924d&_gl=1*l961se*_ga*MTQwNjgyMTU0NS4xNjk2MjgyMDQ3*_ga_CW55HF8NVT*MTY5NjU2MDE2Mi43LjEuMTY5NjU2MTA0OS41OC4wLjA." height ="90" width="90" />CHAT</button>
