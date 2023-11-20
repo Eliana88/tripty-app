@@ -1,31 +1,87 @@
-<div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
-      <div class="card">
-          <div class="col">
-              <img src="https://www.reportur.com/wp-content/uploads/2021/02/arg-mapa.jpg" class="card-img-top"
-                  alt="#" />
-              <h5 class="card-header">Destinos Populares</h5>
-              <p class="card-text"> Explorá nuestros destinos turísticos populares y descubre la belleza de nuestro
-                  país:</p>
-              <ul class="list-group">
-                  <li class="list-group-item" *ngFor="let destino of listaDestinos">{{destino}}</li>
-              </ul>
-          </div>
-      </div>
+<section class="container">
+  <div class="text">
+    <h2>¡Tenemos los mejores servicios para vos!</h2>
   </div>
-  <div class="col-sm-6">
-      <div class="card">
-          <div class="col">
-              <img src="https://viajerosocultos.com/wp-content/uploads/2020/08/jeshoots-com-mSESwdMZr-A-unsplash-scaled.jpg" class="card-img-top"
-                  alt="Palm Springs Road" />
-              <h5 class="card-header">Planificá Tu Viaje</h5>
-              <p class="card-text"> Planificá tu aventura con nosotros y disfruta de servicios de alta calidad:
-              </p>
-              <ul class="list-group">
-                  <li class="list-group-item" *ngFor="let servicio of listaServicios">{{servicio}}</li>
-              </ul>
-          </div>
+  <div class="rowitems">
+    <div class="container-box">
+      <div class="container-image">
+        <img src="assets/icons/avion.jpg" alt="Flight Services">
       </div>
+      <h4>Vuelos</h4>
+      <p>Partidas y Arribos</p>
+    </div>
+    <div class="container-box">
+      <div class="container-image">
+        <img src="assets/icons/food.jpg" alt="Food Services">
+      </div>
+      <h4>Restaurantes</h4>
+      <p>Platos de Autor</p>
+    </div>
+    <div class="container-box">
+      <div class="container-image">
+        <img src="assets/icons/bus.jpg" alt="Travel Services">
+      </div>
+      <h4>Excursiones</h4>
+      <p>Traslados</p>
+    </div>
+    <div class="container-box">
+      <div class="container-image">
+        <img src="assets/icons/hotel.jpg" alt="Hotel Services">
+      </div>
+      <h4>Hoteles</h4>
+      <p>Check-in/out</p>
+    </div>
   </div>
-</div>
-<button class="boton-flotante" (click)="redirigirAlComponenteDelBot()"><img src="https://firebasestorage.googleapis.com/v0/b/tripty-bot.appspot.com/o/pngwing.com.png?alt=media&token=9189d8ff-2cc8-4c2b-acba-a23215b0924d&_gl=1*l961se*_ga*MTQwNjgyMTU0NS4xNjk2MjgyMDQ3*_ga_CW55HF8NVT*MTY5NjU2MDE2Mi43LjEuMTY5NjU2MTA0OS41OC4wLjA." height ="90" width="90" />CHAT</button>
+</section>
+<section class="locations" id="locations">
+  <div class="text">
+    <h2>Nuestros Destinos</h2>
+  </div>
+  <div class="location-content">
+    <a routerLink="/destinos">
+      <div class="col-content">
+        <img src="assets/photos/mendoza.jpg" alt="">
+        <h5>Mendoza</h5>
+        <p>Trekking Alta Montaña</p>
+      </div>
+    </a>
+    <a routerLink="/destinos" target="_blank">
+      <div class="col-content">
+        <img src="assets/photos/salta.jpg" alt="">
+        <h5>Salta</h5>
+        <p>Cerros</p>
+      </div>
+    </a>
+    <a routerLink="/destinos" target="_blank">
+      <div class="col-content">
+        <img src="assets/photos/carlospaz.jpg" alt="">
+        <h5>Córdoba</h5>
+        <p>Villa Carlos Paz</p>
+      </div>
+    </a>
+    <a routerLink="/destinos" target="_blank">
+      <div class="col-content">
+        <img src="assets/photos/cataratas.jpeg" alt="">
+        <h5>Misiones</h5>
+        <p>Cataratas del Iguazú</p>
+      </div>
+    </a>
+    <a routerLink="/destinos" target="_blank">
+      <div class="col-content">
+        <img src="assets/photos/bariloche.jpeg" alt="">
+        <h5>Bariloche</h5>
+        <p>Circuito Chico</p>
+      </div>
+    </a>
+    <a routerLink="/destinos" target="_blank">
+      <div class="col-content">
+        <img src="assets/photos/calafate.jpg" alt="">
+        <h5>Calafate</h5>
+        <p>Glaciar Perito Moreno</p>
+      </div>
+    </a>
+  </div>
+</section>
+<button class="boton-flotante" (click)="redirigirAlComponenteDelBot()"><img
+    src="assets/icons/chatbot.png"
+    height="90" width="90" />CHAT</button>

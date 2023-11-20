@@ -1,0 +1,50 @@
+/* TODOS LOS COMPONENTES */
+h2{
+  font-size: 40px;
+  font-weight: 650;
+  margin-bottom: 10px;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.contact-form p{
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+
+.contact-form form input,form textarea{
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background-color: #dcdcdc;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-form form .submit-btn{
+  display: inline-block;
+  background-color: green;
+  font-size: 27px;
+  font-weight: 600px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  width: 220px;
+  cursor: pointer;
+  transition: ease 0.30s;
+  color: white;
+
+}
+
+.contact-form form .submit-btn:hover{
+  border: 2px solid rgb(11, 73, 5);
+  background-color: transparent;
+  transform: scale(1.1);
+  color: green;
+
+}

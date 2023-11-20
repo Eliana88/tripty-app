@@ -9,18 +9,21 @@ import { DirectivaComponent } from './directiva/directiva.component';
 
 import { RouterModule, Routes } from '@angular/router';
 import { DestinosComponent } from './destinos/destinos.component';
-import { DetalleComponent } from './detalle/detalle.component';
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { PaquetesComponent } from './paquetes/paquetes.component';
 
 const routes: Routes =[
   {path: '', redirectTo: '/home', pathMatch:'full'},
   {path: 'home', component: DirectivaComponent},
   {path: 'destinos', component: DestinosComponent},
-  {path: 'detalle', component: DetalleComponent},
-  {path: 'chatbot', component: ChatbotComponent}
+  {path: 'chatbot', component: ChatbotComponent},
+  {path: 'contacto', component: ContactusComponent},
+  {path: 'paquetes', component: PaquetesComponent}
 ]
 
 @NgModule({
@@ -30,8 +33,9 @@ const routes: Routes =[
     FooterComponent,
     DirectivaComponent,
     DestinosComponent,
-    DetalleComponent,
     ChatbotComponent,
+    ContactusComponent,
+    PaquetesComponent,
 
   ],
   imports: [
@@ -44,13 +48,8 @@ const routes: Routes =[
 })
 export class AppModule { }
 
-////VER ESTADISTICAS////
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+//Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyC823Y1ppX4b94lpjvYhMvdnjB0mN57yBY",
   authDomain: "tripty-bot.firebaseapp.com",
