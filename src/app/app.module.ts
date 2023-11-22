@@ -6,16 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DirectivaComponent } from './directiva/directiva.component';
-
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { PaquetesComponent } from './paquetes/paquetes.component';
 import { RouterModule, Routes } from '@angular/router';
 import { DestinosComponent } from './destinos/destinos.component';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { ChatbotComponent } from './chatbot/chatbot.component';
-import { ContactusComponent } from './contactus/contactus.component';
-import { PaquetesComponent } from './paquetes/paquetes.component';
+
 
 const routes: Routes =[
   {path: '', redirectTo: '/home', pathMatch:'full'},

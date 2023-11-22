@@ -9,10 +9,6 @@ import { Router } from '@angular/router';
 })
 export class DirectivaComponent {
 
-  listaDestinos: string[] = ['Noroeste', 'Costa Atlántica', 'Patagonia'];
-  listaServicios: string[] = ['Reservas de Hotel', 'Paquetes de Viaje Personalizados', 'Excursiones Guiadas'];
-
-
 
   constructor(private router: Router) { }
 

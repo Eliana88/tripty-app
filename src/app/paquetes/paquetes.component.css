@@ -64,3 +64,14 @@ h2{
   filter: brightness(120%);
   transform: scale(1.03);
 }
+
+/* BOTON CHAT */
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

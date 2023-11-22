@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-destinos',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./destinos.component.css']
 })
 export class DestinosComponent {
+  constructor(private router: Router) {
+
+  }
+
+  redirigirAlComponenteDelBot() {
+    this.router.navigate(['/chatbot']);
+
+  }
 
 }

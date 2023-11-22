@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contactus',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class ContactusComponent {
 
+  constructor(private router: Router) {
+
+  }
+
+  redirigirAlComponenteDelBot() {
+    this.router.navigate(['/chatbot']);
+
+  }
 }

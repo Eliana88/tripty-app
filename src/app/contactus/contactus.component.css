@@ -7,7 +7,18 @@ h2{
   text-align: center;
 }
 
+/* BOTON CHAT */
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+/* FORMULARIO */
 .contact-form p{
   line-height: 30px;
   letter-spacing: 1px;
