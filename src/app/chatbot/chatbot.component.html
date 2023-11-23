@@ -4,8 +4,9 @@
     <div class="center">
       <iframe
         title="chatbot"
+        loading="lazy"
         style="border: none"
-        srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+        srcdoc="<div><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
           <script>
             window.botpressWebChat.init({
                 'botId': '5f327053-3371-4235-a5c5-b3e120338f4b',
@@ -30,7 +31,7 @@
                 },
                 ['LIFECYCLE.LOADED']
             );
-        </script></body>"
+        </script></div>"
         width="100%"
         height="100%"
       ></iframe>
